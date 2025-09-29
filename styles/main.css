@@ -1,6 +1,33 @@
 .spantext{
     text-align: center;
-    padding: 10px 0;
-    width: 85.5%;
     font-size: 15.7px;
+    padding: 10px;
+    padding-bottom: 0px;
+    }
+    
+    .pro17{
+        background-image:url(../images/iphone17promovil.jpg);
+        background-position: center;
+        height: 70vh;
+    }
+    .textpro{
+        text-align: center;
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        padding-top: 37px;
+        color: white;
+    }
+    .parrafpro{
+        color: white;
+        text-align: center;
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    #botonComprar{
     }
