@@ -8,7 +8,8 @@
     .pro17{
         background-image:url(../images/iphone17promovil.jpg);
         background-position: center;
-        height: 70vh;
+        height: 75vh;
+        margin-bottom: 10px;
     }
     .textpro{
         text-align: center;
@@ -16,7 +17,7 @@
         line-height: 1.125;
         font-weight: 600;
         letter-spacing: .004em;
-        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-family: "SF Pro Display", sans-serif;
         padding-top: 37px;
         color: white;
     }
@@ -27,7 +28,7 @@
         line-height: 1.21053;
         font-weight: 400;
         letter-spacing: .012em;
-        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-family: "SF Pro Text", sans-serif;
     }
     .boton1{
         background-color: #0071e3;
@@ -37,6 +38,7 @@
         padding-top: 7px;
         padding-bottom: 7px;
         border-radius: 980px;
+        border: solid 1px #0071e3;
     }
     .botontext1{
         color: white;
@@ -45,7 +47,7 @@
         line-height: 1.4289;
         font-weight: 400;
         letter-spacing: -.016em;
-        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-family: "SF Pro Text", sans-serif;
         padding-top: 5px;
     }
     .botones{
@@ -75,9 +77,113 @@
         line-height: 1.4289;
         font-weight: 400;
         letter-spacing: -.016em;
-        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-family: "SF Pro Text", sans-serif;
         padding-top: 5px;
     }
     .textComprar{
         text-decoration: none;
     }
+
+    .airSection{
+        background-image: url(../images/iphoneAirMovil.jpg);
+        background-position: center;
+        height: 80vh;
+        margin-bottom: 12px;
+    }
+    .textAir{
+        text-align: center;
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display", sans-serif;
+        padding-top: 37px;
+        color: black;
+
+    }
+    .parrafAir{
+        color: black;
+        text-align: center;
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "SF Pro Text",sans-serif;
+    }
+    .boton2White{
+        background-color: #0071e3;
+        min-width: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 980px;
+        border: solid #0071e3 1px;
+        background-color: rgba(255, 255, 255, 0.684);
+    }
+    .hero17{
+        background-image:url(../images/hero_iphone_17__c5vvimu9a20y_small.jpg);
+        background-position: center;
+        height: 75vh;
+        margin-bottom: 10px;
+    }
+    .airPods{
+        background-image:url(../images/promo_airpodspro_3__f6xmza7bglei_small_2x.jpg);
+        background-position: center;
+        height: 75vh;
+        margin-bottom: 10px;
+        background-size: cover;
+    }
+
+    .parrafAirPods{
+        padding-inline: 18%;
+        color: black;
+        text-align: center;
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "SF Pro Text", sans-serif;
+    }
+
+    .logoWatch11{
+        background-image:url(../images/promo_logo_apple_watch_series_11__d9br21pxygya_medium.png);
+        background-position: center;
+        height: 29px;
+        margin-bottom: 10px;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+    }
+
+    .parrafWatch11{
+        padding-inline: 20%;
+        color: black;
+        text-align: center;
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "SF Pro Text", sans-serif;
+    }
+
+    .watch11{
+        background-image:url(../images/promo_apple_watch_series_11__b63hxviqvonm_medium.jpg);
+        background-position: center;
+        height: 75vh;
+        margin-bottom: 10px;
+        background-size: cover;
+    }
+
+    @font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/sf-pro-display_semibold.woff2") format("woff2");
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: url("../fonts/sf-pro-display_regular.woff2") format("woff2");
+    font-style: normal;
+}
+
+
