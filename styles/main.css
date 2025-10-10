@@ -119,13 +119,14 @@
         padding-bottom: 7px;
         border-radius: 980px;
         border: solid #0071e3 1px;
-        background-color: rgba(255, 255, 255, 0.684);
+        background-color: transparent;
     }
     .hero17{
         background-image:url(../images/hero_iphone_17__c5vvimu9a20y_small.jpg);
         background-position: center;
         height: 75vh;
         margin-bottom: 10px;
+        background-repeat: no-repeat;
     }
     .airPods{
         background-image:url(../images/promo_airpodspro_3__f6xmza7bglei_small_2x.jpg);
@@ -133,6 +134,7 @@
         height: 75vh;
         margin-bottom: 10px;
         background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .parrafAirPods{
@@ -174,6 +176,63 @@
         background-size: cover;
     }
 
+   
+
+    .logoWatchSe3{
+        background-image:url(../images/promo_logo_apple_watch_se_3__j6yyogma3v2u_medium.png);
+        background-position: center;
+        height: 29px;
+        margin-bottom: 10px;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+    }
+
+    .watchSe3{
+        background-image: url(../images/promo_apple_watch_se_3__fz5y29qx5mmy_small_2x.jpg);
+        background-position: center;
+        height: 75vh;
+        margin-bottom: 5px;
+        background-size: cover;
+
+    }
+
+    .parrafWatchSe3{
+        padding-inline: 10%;
+        color: black;
+        text-align: center;
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "SF Pro Text", sans-serif;
+    }
+
+    .logoTradeIn{
+        background-image:url(../images/promo_logo_iphone_tradein__7y3gtai5az66_medium.png);
+        background-position: center;
+        height: 29px;
+        margin-bottom: 10px;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+    }
+     .tradeIn{
+        background-image: url(../images/promo_iphone_tradein__bugw15ka691e_small_2x.jpg);
+        background-position: center;
+        height: 75vh;
+        margin-bottom: 10px;
+        background-size: cover;
+    }
+    .parrafTradeIn{
+        padding-inline: 14%;
+        color: black;
+        text-align: center;
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "SF Pro Text", sans-serif;
+    }
+
     @font-face {
   font-family: "SF Pro Display";
   src: url("../fonts/sf-pro-display_semibold.woff2") format("woff2");
@@ -186,4 +245,134 @@
     font-style: normal;
 }
 
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .pro17{
+        background-image:url(../images/hero_iphone_17_pro__bknyzxfk2agi_mediumtall_2x.jpg);
+        width: 100%;
+        height: 55vh;
+        background-position: center;
+        margin-bottom: 5px;
+        background-size: cover;
+    }
+  }
+  .airSection{
+    background-image:url(../images/hero_iphone_air__0gxyavihpiqu_mediumtall_2x.jpg);
+        width: 100%;
+        height: 55vh;
+        background-position: center;
+        margin-bottom: 5px;
+        background-size: cover;
+  }
+  .hero17{
+    background-image:url(../images/hero_iphone_17__c5vvimu9a20y_mediumtall_2x.jpg);
+        width: 100%;
+        height: 55vh;
+        background-position: center;
+        margin-bottom: 5px;
+        background-size: cover;
+  }
+  .watch11{
+        background-image:url(../images/promo_apple_watch_series_11__b63hxviqvonm_medium.jpg);
+        background-position: center;
+        height: 38vh;
+        margin-bottom: 10px;
+        background-size: cover; 
+        
+        
+    
+    }
+    .airPods{
+        background-image:url(../images/promo_airpodspro_3__f6xmza7bglei_small_2x.jpg);
+        background-position: center;
+        height: 38vh;
+        margin-bottom: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .watchSe3{
+        background-image: url(../images/promo_apple_watch_se_3__fz5y29qx5mmy_small_2x.jpg);
+        background-position: center;
+        height: 100%;
+        margin-bottom: 5px;
+        background-size: cover;
+
+    }
+    .tradeIn{
+        background-image: url(../images/promo_iphone_tradein__bugw15ka691e_small_2x.jpg);
+        background-position: center;
+        height: 100%;
+        margin-bottom: 10px;
+        background-size: cover;
+    }
+    .alto{
+        height: 40vh;
+    }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+    .pro17{
+        background-image:url(../images/hero_iphone_17_pro__bknyzxfk2agi_mediumtall_2x.jpg);
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        margin-bottom: 5px;
+        background-size: cover;
+    }
+    .airSection{
+    background-image:url(../images/hero_iphone_air__0gxyavihpiqu_mediumtall_2x.jpg);
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        margin-bottom: 5px;
+        background-size: cover;
+  }
+    .hero17{
+    background-image:url(../images/hero_iphone_17__c5vvimu9a20y_mediumtall_2x.jpg);
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        margin-bottom: 5px;
+        background-size: cover;
+  }
+  .watch11{
+        background-image:url(../images/promo_apple_watch_series_11__b63hxviqvonm_medium.jpg);
+        background-position: center;
+        height: 100%;
+        margin-bottom: 10px;
+        background-size: cover;
+        width: 45vw;
+        
+        
+    
+    }
+
+    .airPods{
+        background-image:url(../images/promo_airpodspro_3__f6xmza7bglei_small_2x.jpg);
+        background-position: center;
+        height: 100%;
+        margin-bottom: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 45vw;
+    }
+  
+    .alto{
+        height: 80vh;
+        
+    }
+
+  
+  
+ }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {  }
 
