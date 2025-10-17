@@ -1,0 +1,45 @@
+.textaco {
+  text-align: left;
+  color: rgb(138, 128, 128);
+  line-height: 1.5;
+}
+
+.ajuste {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.ajuste {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.medio{
+    text-align: center;
+    line-height: 1;
+    font-size: small;
+}
+.columna{
+  text-align: left;
+}
+.negrita-columna-footer{
+  color: black;
+  font-weight: bold;
+}
+ul {
+  list-style: none;   /* quita el marcador */
+  margin: 0;          /* elimina márgenes por defecto */
+  padding: 0;         /* elimina padding por defecto */
+}
+.accordion-button {
+  background-color: white !important;
+  color: black;
+}
+
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+  color: black;
+  box-shadow: none; /* Quita el borde azul */
+  outline: none;
+}
