@@ -246,7 +246,16 @@
 }
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {  }
+@media (min-width: 0px) { 
+    .pro17{
+        background-image:url(../images/iphonesmmd.jpeg);
+        width: 100%;
+        height: 55vh;
+        background-position: center;
+        margin-bottom: 5px;
+        background-size: cover;
+    }
+ }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
