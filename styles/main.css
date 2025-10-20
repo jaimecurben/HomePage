@@ -255,6 +255,41 @@
         margin-bottom: 5px;
         background-size: cover;
     }
+    .logoWatch11{
+        background-image:url(../images/promo_logo_apple_watch_series_11__d9br21pxygya_medium.png);
+        background-position: center;
+        height: 29px;
+        margin-top: 10px;
+        background-repeat: no-repeat;
+    }.logoWatchSe3{
+        background-image:url(../images/promo_logo_apple_watch_se_3__j6yyogma3v2u_medium.png);
+        background-position: center;
+        height: 29px;
+        margin: 0px;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+    }
+    .textpro{
+        text-align: center;
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display", sans-serif;
+        padding-top:10px;
+        color: white;
+    }
+    .textAir{
+        text-align: center;
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display", sans-serif;
+        padding-top: 10px;
+        color: black;
+
+    }
  }
 
 /* Medium devices (tablets, 768px and up)*/
