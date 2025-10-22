@@ -246,7 +246,26 @@
 }
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 0px) { 
+@media (min-width: 0px) {
+    .logoTradeIn{
+        background-image:url(../images/promo_logo_iphone_tradein__7y3gtai5az66_medium.png);
+        background-position: center;
+        height: 29px;
+        margin-bottom: 10px;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+    }
+    .parrafTradeIn{
+        padding-inline: 14%;
+        color: black;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "SF Pro Text", sans-serif;
+    }
+    
     .pro17{
         background-image:url(../images/iphonesmmd.jpeg);
         width: 100%;
@@ -277,17 +296,48 @@
         letter-spacing: .004em;
         font-family: "SF Pro Display", sans-serif;
         color: white;
+        padding-top: 15px;
     }
     .textAir{
         text-align: center;
-        font-size: 32px;
+        font-size: 24px;
         line-height: 1.125;
         font-weight: 600;
         letter-spacing: .004em;
         font-family: "SF Pro Display", sans-serif;
-        padding-top: 10px;
+        padding-top: 5px;
         color: black;
 
+    }
+    .parrafWatch11{
+        padding-inline: 20%;
+        color: black;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "SF Pro Text", sans-serif;
+    }
+    .parrafAirPods{
+        padding-inline: 18%;
+        color: black;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "SF Pro Text", sans-serif;
+    }
+    .parrafWatchSe3{
+        padding-inline: 10%;
+        color: black;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "SF Pro Text", sans-serif;
     }
  }
 
@@ -409,7 +459,44 @@
  }
 
 /* X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
+    .airPods{
+        background-image:url(../images/promo_airpodspro_3__f6xmza7bglei_small_2x.jpg);
+        background-position: center;
+        height: 50vh;
+        margin-bottom: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 45vw;
+    }
+    .watch11{
+        background-image:url(../images/promo_apple_watch_series_11__b63hxviqvonm_medium.jpg);
+        background-position: center bottom 20%  ;
+        height: 50vh;
+        margin-bottom: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 45vw;
+        
+        
+    
+    }
+    .tradeIn{
+        background-image: url(../images/promo_iphone_tradein__bugw15ka691e_small_2x.jpg);
+        background-position: center;
+        height: 50vh;
+        margin-bottom: 10px;
+        background-size: cover;
+    }
+    .watchSe3{
+        background-image: url(../images/promo_apple_watch_se_3__fz5y29qx5mmy_small_2x.jpg);
+        background-position: center;
+        height: 50vh;
+        margin-bottom: 5px;
+        background-size: cover;
+
+    }
+ }
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {  }
